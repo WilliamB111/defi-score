@@ -1,0 +1,183 @@
+DEBUG:web3.RequestManager:Making request. Method: eth_call
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 103
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call, Response: {'jsonrpc': '2.0', 'id': 37, 'result': '0x00000000000000000000000000000000000000000001488fbdc8b030e7472678'}
+DEBUG:web3.RequestManager:Making request. Method: eth_call
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 103
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call, Response: {'jsonrpc': '2.0', 'id': 38, 'result': '0x000000000000000000000000000000000000000000000b92175baa514cb271f6'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+DEBUG:urllib3.connectionpool:https://min-api.cryptocompare.com:443 "GET /data/dayAvg?fsym=ETH&tsym=USD HTTP/1.1" 200 None
+DEBUG:web3.RequestManager:Making request. Method: eth_call
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 103
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call, Response: {'jsonrpc': '2.0', 'id': 39, 'result': '0x000000000000000000000000000000000000000000002a757217e582726112f2'}
+DEBUG:web3.RequestManager:Making request. Method: eth_call
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 103
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call, Response: {'jsonrpc': '2.0', 'id': 40, 'result': '0x0000000000000000000000000000000000000000000000171ed7249e8a3894c2'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+DEBUG:urllib3.connectionpool:https://min-api.cryptocompare.com:443 "GET /data/dayAvg?fsym=DAI&tsym=USD HTTP/1.1" 200 None
+DEBUG:web3.RequestManager:Making request. Method: eth_call
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 103
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call, Response: {'jsonrpc': '2.0', 'id': 41, 'result': '0x00000000000000000000000000000000000000000000000000028f97d0d077cb'}
+DEBUG:web3.RequestManager:Making request. Method: eth_call
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 103
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call, Response: {'jsonrpc': '2.0', 'id': 42, 'result': '0x000000000000000000000000000000000000000000000000000a52db3c135673'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+DEBUG:urllib3.connectionpool:https://min-api.cryptocompare.com:443 "GET /data/dayAvg?fsym=USDC&tsym=USD HTTP/1.1" 200 None
+DEBUG:web3.RequestManager:Making request. Method: eth_call
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 103
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call, Response: {'jsonrpc': '2.0', 'id': 43, 'result': '0x0000000000000000000000000000000000000000006493be863c914ec1320027'}
+DEBUG:web3.RequestManager:Making request. Method: eth_call
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 103
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call, Response: {'jsonrpc': '2.0', 'id': 44, 'result': '0x000000000000000000000000000000000000000000103d0c9bc21c624ae243ea'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+DEBUG:urllib3.connectionpool:https://min-api.cryptocompare.com:443 "GET /data/dayAvg?fsym=ZRX&tsym=USD HTTP/1.1" 200 None
+DEBUG:web3.RequestManager:Making request. Method: eth_call
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 103
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call, Response: {'jsonrpc': '2.0', 'id': 45, 'result': '0x0000000000000000000000000000000000000000005b45cf7aa1cef86d6698b3'}
+DEBUG:web3.RequestManager:Making request. Method: eth_call
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 103
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call, Response: {'jsonrpc': '2.0', 'id': 46, 'result': '0x00000000000000000000000000000000000000000009507cb55f97c653f9251a'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+DEBUG:urllib3.connectionpool:https://min-api.cryptocompare.com:443 "GET /data/dayAvg?fsym=BAT&tsym=USD HTTP/1.1" 200 None
+DEBUG:web3.RequestManager:Making request. Method: eth_call
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 103
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call, Response: {'jsonrpc': '2.0', 'id': 47, 'result': '0x00000000000000000000000000000000000000000000005bf9c8ece78aa8571b'}
+DEBUG:web3.RequestManager:Making request. Method: eth_call
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 103
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call, Response: {'jsonrpc': '2.0', 'id': 48, 'result': '0x000000000000000000000000000000000000000000000002ef28cf7f449691f6'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+DEBUG:urllib3.connectionpool:https://min-api.cryptocompare.com:443 "GET /data/dayAvg?fsym=REP&tsym=USD HTTP/1.1" 200 None
+DEBUG:web3.RequestManager:Making request. Method: eth_call
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 103
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call, Response: {'jsonrpc': '2.0', 'id': 49, 'result': '0x0000000000000000000000000000000000000000000000000000003cdf1fa74a'}
+DEBUG:web3.RequestManager:Making request. Method: eth_call
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 103
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call, Response: {'jsonrpc': '2.0', 'id': 50, 'result': '0x0000000000000000000000000000000000000000000000000000000003d884f9'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+DEBUG:urllib3.connectionpool:https://min-api.cryptocompare.com:443 "GET /data/dayAvg?fsym=BTC&tsym=USD HTTP/1.1" 200 None
+DEBUG:web3.RequestManager:Making request. Method: eth_call
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 103
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call, Response: {'jsonrpc': '2.0', 'id': 51, 'result': '0x0000000000000000000000000000000000000000031f53bb142ab667effcb6b3'}
+DEBUG:web3.RequestManager:Making request. Method: eth_call
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 103
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call, Response: {'jsonrpc': '2.0', 'id': 52, 'result': '0x00000000000000000000000000000000000000000b615e3de18eb5f662613b2a'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+DEBUG:urllib3.connectionpool:https://min-api.cryptocompare.com:443 "GET /data/dayAvg?fsym=DAI&tsym=USD HTTP/1.1" 200 None
+DEBUG:web3.RequestManager:Making request. Method: eth_call
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 103
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call, Response: {'jsonrpc': '2.0', 'id': 53, 'result': '0x0000000000000000000000000000000000000000000004b9dba932e2286ff244'}
+DEBUG:web3.RequestManager:Making request. Method: eth_call
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 103
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call, Response: {'jsonrpc': '2.0', 'id': 54, 'result': '0x0000000000000000000000000000000000000000000004a1a28d0181f0e696fb'}
+DEBUG:web3.RequestManager:Making request. Method: eth_call
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 103
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call, Response: {'jsonrpc': '2.0', 'id': 55, 'result': '0x0000000000000000000000000000000000000000000000000000000000000000'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+DEBUG:urllib3.connectionpool:https://min-api.cryptocompare.com:443 "GET /data/dayAvg?fsym=DAI&tsym=USD HTTP/1.1" 200 None
+DEBUG:web3.RequestManager:Making request. Method: eth_getBalance
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_getBalance
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 57
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_getBalance, Response: {'jsonrpc': '2.0', 'id': 56, 'result': '0x44cb2002b8b929f780'}
+DEBUG:web3.RequestManager:Making request. Method: eth_call
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 103
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call, Response: {'jsonrpc': '2.0', 'id': 57, 'result': '0x0000000000000000000000000000000000000000000000206eb8b32e7f4b2697'}
+DEBUG:web3.RequestManager:Making request. Method: eth_call
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 103
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call, Response: {'jsonrpc': '2.0', 'id': 58, 'result': '0x0000000000000000000000000000000000000000000000000001c7e79c868787'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+DEBUG:urllib3.connectionpool:https://min-api.cryptocompare.com:443 "GET /data/dayAvg?fsym=ETH&tsym=USD HTTP/1.1" 200 None
+DEBUG:web3.RequestManager:Making request. Method: eth_call
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 103
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call, Response: {'jsonrpc': '2.0', 'id': 59, 'result': '0x000000000000000000000000000000000000000000000000000000005fa70a6f'}
+DEBUG:web3.RequestManager:Making request. Method: eth_call
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 103
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call, Response: {'jsonrpc': '2.0', 'id': 60, 'result': '0x00000000000000000000000000000000000000000000000000000000001cdb19'}
+DEBUG:web3.RequestManager:Making request. Method: eth_call
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 103
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call, Response: {'jsonrpc': '2.0', 'id': 61, 'result': '0x0000000000000000000000000000000000000000000000000000000000000000'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+DEBUG:urllib3.connectionpool:https://min-api.cryptocompare.com:443 "GET /data/dayAvg?fsym=BTC&tsym=USD HTTP/1.1" 200 None
+DEBUG:web3.RequestManager:Making request. Method: eth_call
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 103
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call, Response: {'jsonrpc': '2.0', 'id': 62, 'result': '0x00000000000000000000000000000000000000000000017dc76de29d1c32f94c'}
+DEBUG:web3.RequestManager:Making request. Method: eth_call
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 103
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call, Response: {'jsonrpc': '2.0', 'id': 63, 'result': '0x000000000000000000000000000000000000000000000020478a93f258c4e93a'}
+DEBUG:web3.RequestManager:Making request. Method: eth_call
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 103
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call, Response: {'jsonrpc': '2.0', 'id': 64, 'result': '0x00000000000000000000000000000000000000000000000160b7b8836e2e0bca'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+DEBUG:urllib3.connectionpool:https://min-api.cryptocompare.com:443 "GET /data/dayAvg?fsym=DAI&tsym=USD HTTP/1.1" 200 None
+DEBUG:web3.RequestManager:Making request. Method: eth_call
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 103
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call, Response: {'jsonrpc': '2.0', 'id': 65, 'result': '0x00000000000000000000000000000000000000000000000000000112447f89ec'}
+DEBUG:web3.RequestManager:Making request. Method: eth_call
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 103
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call, Response: {'jsonrpc': '2.0', 'id': 66, 'result': '0x000000000000000000000000000000000000000000000000000000894c6f93ef'}
+DEBUG:web3.RequestManager:Making request. Method: eth_call
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 103
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call, Response: {'jsonrpc': '2.0', 'id': 67, 'result': '0x0000000000000000000000000000000000000000000000000000001ecda61047'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+DEBUG:urllib3.connectionpool:https://min-api.cryptocompare.com:443 "GET /data/dayAvg?fsym=USDT&tsym=USD HTTP/1.1" 200 None
+DEBUG:web3.RequestManager:Making request. Method: eth_call
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 103
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call, Response: {'jsonrpc': '2.0', 'id': 68, 'result': '0x00000000000000000000000000000000000000000000000000000084f6db1cd0'}
+DEBUG:web3.RequestManager:Making request. Method: eth_call
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 103
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call, Response: {'jsonrpc': '2.0', 'id': 69, 'result': '0x000000000000000000000000000000000000000000000000000000662c1b1975'}
+DEBUG:web3.RequestManager:Making request. Method: eth_call
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 103
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call, Response: {'jsonrpc': '2.0', 'id': 70, 'result': '0x000000000000000000000000000000000000000000000000000000013321242d'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+DEBUG:urllib3.connectionpool:https://min-api.cryptocompare.com:443 "GET /data/dayAvg?fsym=USDC&tsym=USD HTTP/1.1" 200 None
+DEBUG:web3.RequestManager:Making request. Method: eth_call
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 1063
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call, Response: {'jsonrpc': '2.0', 'id': 71, 'result': '0x000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2000000000000000000000000000000000000000000000000696c7f9ac40805f40000000000000000000000000000000000000000000001c1a8735eb8949d9cbc0000000000000000000000000000000000000000000000000e275e1dc847d2ff0000000000000000000000000000000000000000000000000de8cb9e3886247200000000000000000000000000000000000000000000000000000000618e5b57000000000000000000000000e852877d3cdbc8fb469208cb318c346bacc51c5c0000000000000000000000000eed07ced0c8c36d4a5bff44f2536422bb09be450000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000e275e2bb73fb9100000000000000000000000000000000000000000000000000de8cb9e3ba09d9900000000000000000000000000000000000000000000000000000000618e821f0000000000000000000000000000000000000000000000fa1fa5383b2989060000000000000000000000000000000000000000000000000000000000005a2ee1'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+DEBUG:urllib3.connectionpool:https://min-api.cryptocompare.com:443 "GET /data/dayAvg?fsym=ETH&tsym=USD HTTP/1.1" 200 None
+DEBUG:web3.RequestManager:Making request. Method: eth_call
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 1063
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call, Response: {'jsonrpc': '2.0', 'id': 72, 'result': '0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000000000000000000000000000000001694c002f1b000000000000000000000000000000000000000000000000000008bf1d117c4600000000000000000000000000000000000000000000000010e29f319c19fc300000000000000000000000000000000000000000000000000f9f265a8e18e52c00000000000000000000000000000000000000000000000000000000618dbf0b00000000000000000000000052f1c952a48a4588f9ae615d38cfdbf8df036e600000000000000000000000000eed07ced0c8c36d4a5bff44f2536422bb09be4500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000010e2dc51e533ce990000000000000000000000000000000000000000000000000f9f2fb944dd8b0f00000000000000000000000000000000000000000000000000000000618e821f000000000000000000000000000000000000000c9f2c9cd04674edea400000000000000000000000000000000000000000000000000000000000000041ed9dde'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+DEBUG:urllib3.connectionpool:https://min-api.cryptocompare.com:443 "GET /data/dayAvg?fsym=USDC&tsym=USD HTTP/1.1" 200 None
+DEBUG:web3.RequestManager:Making request. Method: eth_call
+DEBUG:web3.providers.HTTPProvider:Making request HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call
+DEBUG:urllib3.connectionpool:https://mainnet.infura.io:443 "POST /v3/f85ce986f27b410f82e4b8bcc11e1731 HTTP/1.1" 200 1063
+DEBUG:web3.providers.HTTPProvider:Getting response HTTP. URI: https://mainnet.infura.io/v3/f85ce986f27b410f82e4b8bcc11e1731, Method: eth_call, Response: {'jsonrpc': '2.0', 'id': 73, 'result': '0x0000000000000000000000006b175474e89094c44da98b954eedeac495271d0f000000000000000000000000000000000000000000008711740541b27dfae7f900000000000000000000000000000000000000000007b3ef8cc2a4703d606006000000000000000000000000000000000000000000000000108ca9a480e0fc170000000000000000000000000000000000000000000000000fa6b6d1087100f700000000000000000000000000000000000000000000000000000000618e43d600000000000000000000000052305c065579a8a620690cc39394514af905ff420000000000000000000000000eed07ced0c8c36d4a5bff44f2536422bb09be45000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000108cb19604e7793d0000000000000000000000000000000000000000000000000fa6b7555ad2daff00000000000000000000000000000000000000000000000000000000618e821f0000000000000000000000000000000000000000000000000de0b6b3a7640000000000000000000000000000000000000000000000000000000000001b60ba9c'}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+DEBUG:urllib3.connectionpool:https://min-api.cryptocompare.com:443 "GET /data/dayAvg?fsym=DAI&tsym=USD HTTP/1.1" 200 None
+INFO:root:[{'liquidity': 7268211184.156504, 'liquidityBaseToken': 1551587.7661577766, 'collateral': 7268211184.156504, 'collateralBaseToken': 1551587.7661577766, 'totalSupply': 7524169559.919455, 'totalSupplyBaseToken': 1606228.705230256, 'totalBorrow': 255958375.76295128, 'totalBorrowBaseToken': 54640.9390724796, 'utilizationRate': 0.03401815625293953, 'protocol': 'compound', 'token': 'eth'}, {'liquidity': 200485.83204087944, 'liquidityBaseToken': 200505.88262914235, 'collateral': 200485.83204087944, 'collateralBaseToken': 200505.88262914235, 'totalSupply': 200912.28679003933, 'totalSupplyBaseToken': 200932.38002804213, 'totalBorrow': 426.45474915990275, 'totalBorrowBaseToken': 426.4973988997927, 'utilizationRate': 0.002122591684029576, 'protocol': 'compound', 'token': 'sai'}, {'liquidity': 720832159.5780587, 'liquidityBaseToken': 720832159.5780587, 'collateral': 720832159.5780587, 'collateralBaseToken': 720832159.5780587, 'totalSupply': 3626683485.9003496, 'totalSupplyBaseToken': 3626683485.9003496, 'totalBorrow': 2905851326.322291, 'totalBorrowBaseToken': 2905851326.322291, 'utilizationRate': 0.8012420542403338, 'protocol': 'compound', 'token': 'usdc'}, {'liquidity': 165484377.05286366, 'liquidityBaseToken': 121590284.38858461, 'collateral': 165484377.05286366, 'collateralBaseToken': 121590284.38858461, 'totalSupply': 192202317.83606154, 'totalSupplyBaseToken': 141221394.44236705, 'totalBorrow': 26717940.783197887, 'totalBorrowBaseToken': 19631110.05378243, 'utilizationRate': 0.13900946192535973, 'protocol': 'compound', 'token': 'zrx'}, {'liquidity': 129320730.4566372, 'liquidityBaseToken': 110341920.18484403, 'collateral': 129320730.4566372, 'collateralBaseToken': 110341920.18484403, 'totalSupply': 142517945.22904545, 'totalSupplyBaseToken': 121602342.34560193, 'totalBorrow': 13197214.772408253, 'totalBorrowBaseToken': 11260422.160757896, 'utilizationRate': 0.09260037219311967, 'protocol': 'compound', 'token': 'bat'}, {'liquidity': 40193.700262141276, 'liquidityBaseToken': 1696.6526070975633, 'collateral': 40193.700262141276, 'collateralBaseToken': 1696.6526070975633, 'totalSupply': 41475.962739068185, 'totalSupplyBaseToken': 1750.779347364634, 'totalBorrow': 1282.2624769269078, 'totalBorrowBaseToken': 54.12674026707082, 'utilizationRate': 0.030915797783738576, 'protocol': 'compound', 'token': 'rep'}, {'liquidity': 167903621.9463061, 'liquidityBaseToken': 2614.4143137, 'collateral': 167903621.9463061, 'collateralBaseToken': 2614.4143137, 'totalSupply': 167945059.09576637, 'totalSupplyBaseToken': 2615.05952835, 'totalBorrow': 41437.149460255496, 'totalBorrowBaseToken': 0.64521465, 'utilizationRate': 0.0002467303872073249, 'protocol': 'compound', 'token': 'wbtc'}, {'liquidity': 966230504.570755, 'liquidityBaseToken': 966327137.2844834, 'collateral': 966230504.570755, 'collateralBaseToken': 966327137.2844834, 'totalSupply': 4487924256.466427, 'totalSupplyBaseToken': 4488373093.7758045, 'totalBorrow': 3521693751.895672, 'totalBorrowBaseToken': 3522045956.491321, 'utilizationRate': 0.7847043645670799, 'protocol': 'compound', 'token': 'dai'}, {'liquidity': 21868.91763673456, 'liquidityBaseToken': 21871.104747209283, 'collateral': 22315.710029244798, 'collateralBaseToken': 22317.94182342714, 'totalSupply': 21868.91763673456, 'totalSupplyBaseToken': 21871.104747209283, 'totalBorrow': 0.0, 'totalBorrowBaseToken': 0.0, 'utilizationRate': 0.0, 'protocol': 'ddex', 'token': 'sai'}, {'liquidity': 2801876.956462737, 'liquidityBaseToken': 598.2736328383238, 'collateral': 5943141.278381138, 'collateralBaseToken': 1269.0152987936074, 'totalSupply': 2801879.304057452, 'totalSupplyBaseToken': 598.274134110878, 'totalBorrow': 2.3475947146537965, 'totalBorrowBaseToken': 0.000501272554145671, 'utilizationRate': 8.378643260094046e-07, 'protocol': 'ddex', 'token': 'eth'}, {'liquidity': 1214.5054213018998, 'liquidityBaseToken': 0.01891097, 'collateral': 1030627.8804339581, 'collateralBaseToken': 16.04782703, 'totalSupply': 1214.5054213018998, 'totalSupplyBaseToken': 0.01891097, 'totalBorrow': 0.0, 'totalBorrowBaseToken': 0.0, 'utilizationRate': 0.0, 'protocol': 'ddex', 'token': 'wbtc'}, {'liquidity': 569.9779163625624, 'liquidityBaseToken': 570.0349198545479, 'collateral': 7041.875625245436, 'collateralBaseToken': 7042.57988323376, 'totalSupply': 595.3913606606901, 'totalSupplyBaseToken': 595.4509057512653, 'totalBorrow': 25.41344429812775, 'totalBorrowBaseToken': 25.415985896717423, 'utilizationRate': 0.04268359599629917, 'protocol': 'ddex', 'token': 'dai'}, {'liquidity': 457393.669032, 'liquidityBaseToken': 457393.669032, 'collateral': 1177970.248172, 'collateralBaseToken': 1177970.248172, 'totalSupply': 589692.900335, 'totalSupplyBaseToken': 589692.900335, 'totalBorrow': 132299.231303, 'totalBorrowBaseToken': 132299.231303, 'utilizationRate': 0.22435276264618725, 'protocol': 'ddex', 'token': 'usdt'}, {'liquidity': 433673.860424, 'liquidityBaseToken': 433673.860424, 'collateral': 571077.237968, 'collateralBaseToken': 571077.237968, 'totalSupply': 438826.637685, 'totalSupplyBaseToken': 438826.637685, 'totalBorrow': 5152.777261, 'totalBorrowBaseToken': 5152.777261, 'utilizationRate': 0.011742170639829717, 'protocol': 'ddex', 'token': 'usdc'}, {'liquidity': 38819981.52648233, 'liquidityBaseToken': 8287.129651688985, 'collateral': 38819981.52648233, 'collateralBaseToken': 8287.129651688985, 'totalSupply': 38855566.75060646, 'totalSupplyBaseToken': 8294.726238663143, 'totalBorrow': 35585.22412413527, 'totalBorrowBaseToken': 7.596586974157735, 'utilizationRate': 0.0009158333567114897, 'protocol': 'dydx', 'token': 'eth'}, {'liquidity': 8065161.186603, 'liquidityBaseToken': 8065161.186603, 'collateral': 8065161.186603, 'collateralBaseToken': 8065161.186603, 'totalSupply': 9616919.460934, 'totalSupplyBaseToken': 9616919.460934, 'totalBorrow': 1551758.274331, 'totalBorrowBaseToken': 1551758.274331, 'utilizationRate': 0.1613571040741868, 'protocol': 'dydx', 'token': 'usdc'}, {'liquidity': 8673494.386240384, 'liquidityBaseToken': 8674361.822422625, 'collateral': 8673494.386240384, 'collateralBaseToken': 8674361.822422625, 'totalSupply': 9311272.032094557, 'totalSupplyBaseToken': 9312203.2524198, 'totalBorrow': 637777.6458541737, 'totalBorrowBaseToken': 637841.4299971734, 'utilizationRate': 0.06849522209810323, 'protocol': 'dydx', 'token': 'dai'}]

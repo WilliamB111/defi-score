@@ -38,6 +38,10 @@ def get_all_available_pools():
   all_available_pools = []
   for t in constants.compoundContractInfo:
     all_available_pools.append({ 'protocol': 'compound', 'token': t['token'] })
+  for t in constants.ddexContractInfo:
+    all_available_pools.append({ 'protocol': 'ddex', 'token': t['token'] })
+  for t in constants.dydxContractInfo['activeMarkets']:
+    all_available_pools.append({ 'protocol': 'dydx', 'token': t })
   return all_available_pools
 
 def fetch_data_for_nuo_pool(token):

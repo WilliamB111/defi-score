@@ -1,5 +1,6 @@
 from . import constants, pool_data_service, finance_service
 import math, json
+import logging
 
 
 def calculate_score(protocol, token, liquidity_value, collateral_value):
@@ -34,8 +35,11 @@ def calculate_score(protocol, token, liquidity_value, collateral_value):
     return result
 
 def calculate_scores():
+    logging.basicConfig(filename='log.log', encoding='utf-8', level=logging.DEBUG)
+
     # Get all pool data
     all_pool_data = pool_data_service.fetch_data_for_all_pools()
+    logging.info(all_pool_data)
     liquidity_array = [math.log(p['liquidity']) for p in all_pool_data]
     utilization_array = [p['utilizationRate'] for p in all_pool_data]
     results = []
@@ -68,6 +72,21 @@ def main():
     constants.compound_values['cvar'] = 1 + compound_portfolio_cvar
     constants.compound_values['timeIndex'] = finance_service.normalize_time_data(constants.compound_values['operatingWithoutExploitSince'], time_list)
 
+    # Pulling and calculating dYdX data
+    dydx_tokens = constants.dydxContractInfo['activeMarkets']
+    dydx_balances = [pool_data_service.fetch_data_for_pool('dydx', t) for t in dydx_tokens]
+    dydx_portfolio_cvar = finance_service.generate_cvar_from_balances(dydx_balances)
+    # add instead of subtract here because cvar from this function is negative
+    constants.dydx_values['cvar'] = 1 + dydx_portfolio_cvar
+    constants.dydx_values['timeIndex'] = finance_service.normalize_time_data(constants.dydx_values['operatingWithoutExploitSince'], time_list)
+
+    # Pulling and calculating DDEX data
+    ddex_tokens = [x['token'] for x in constants.ddexContractInfo]
+    ddex_balances = [pool_data_service.fetch_data_for_pool('ddex', t) for t in ddex_tokens]
+    ddex_portfolio_cvar = finance_service.generate_cvar_from_balances(ddex_balances)
+    # add instead of subtract here because cvar from this function is negative
+    constants.ddex_values['cvar'] = 1 + ddex_portfolio_cvar
+    constants.ddex_values['timeIndex'] = finance_service.normalize_time_data(constants.ddex_values['operatingWithoutExploitSince'], time_list)
 
     scores = calculate_scores()
 
