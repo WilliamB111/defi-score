@@ -36,16 +36,8 @@ def create_pool_data_object(token, total_supply, total_borrow, collateral=0):
 
 def get_all_available_pools():
   all_available_pools = []
-  for t in constants.dydxContractInfo['activeMarkets']:
-    all_available_pools.append({ 'protocol': 'dydx', 'token': t })
   for t in constants.compoundContractInfo:
     all_available_pools.append({ 'protocol': 'compound', 'token': t['token'] })
-  for t in constants.fulcrumContractInfo:
-    all_available_pools.append({ 'protocol': 'fulcrum', 'token': t['token'] })
-  for t in constants.nuoContractInfo:
-    all_available_pools.append({ 'protocol': 'nuo', 'token': t['token'] })
-  for t in constants.ddexContractInfo:
-    all_available_pools.append({ 'protocol': 'ddex', 'token': t['token'] })
   for t in constants.aaveContractInfo:
     all_available_pools.append({ 'protocol': 'aave', 'token': t['token'] })
   return all_available_pools

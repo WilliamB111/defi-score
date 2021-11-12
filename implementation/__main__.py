@@ -76,30 +76,6 @@ def main():
     constants.dydx_values['cvar'] = 1 + dydx_portfolio_cvar
     constants.dydx_values['timeIndex'] = finance_service.normalize_time_data(constants.dydx_values['operatingWithoutExploitSince'], time_list)
 
-    # Pulling and calculating Fulcrum data
-    fulcrum_tokens = [x['token'] for x in constants.fulcrumContractInfo]
-    fulcrum_balances = [pool_data_service.fetch_data_for_pool('fulcrum', t) for t in fulcrum_tokens]
-    fulcrum_portfolio_cvar = finance_service.generate_cvar_from_balances(fulcrum_balances)
-    # add instead of subtract here because cvar from this function is negative
-    constants.fulcrum_values['cvar'] = 1 + fulcrum_portfolio_cvar
-    constants.fulcrum_values['timeIndex'] = finance_service.normalize_time_data(constants.fulcrum_values['operatingWithoutExploitSince'], time_list)
-
-    # Pulling and calculating Nuo data
-    nuo_tokens = [x['token'] for x in constants.nuoContractInfo]
-    nuo_balances = [pool_data_service.fetch_data_for_pool('nuo', t) for t in nuo_tokens]
-    nuo_portfolio_cvar = finance_service.generate_cvar_from_balances(nuo_balances)
-    # add instead of subtract here because cvar from this function is negative
-    constants.nuo_values['cvar'] = 1 + nuo_portfolio_cvar
-    constants.nuo_values['timeIndex'] = finance_service.normalize_time_data(constants.nuo_values['operatingWithoutExploitSince'], time_list)
-
-    # Pulling and calculating DDEX data
-    ddex_tokens = [x['token'] for x in constants.ddexContractInfo]
-    ddex_balances = [pool_data_service.fetch_data_for_pool('ddex', t) for t in ddex_tokens]
-    ddex_portfolio_cvar = finance_service.generate_cvar_from_balances(ddex_balances)
-    # add instead of subtract here because cvar from this function is negative
-    constants.ddex_values['cvar'] = 1 + ddex_portfolio_cvar
-    constants.ddex_values['timeIndex'] = finance_service.normalize_time_data(constants.ddex_values['operatingWithoutExploitSince'], time_list)
-
     # Pulling and calculating AAVE data
     aave_tokens = [x['token'] for x in constants.aaveContractInfo]
     aave_balances = [pool_data_service.fetch_data_for_pool('aave', t) for t in aave_tokens]
