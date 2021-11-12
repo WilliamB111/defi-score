@@ -68,21 +68,6 @@ def main():
     constants.compound_values['cvar'] = 1 + compound_portfolio_cvar
     constants.compound_values['timeIndex'] = finance_service.normalize_time_data(constants.compound_values['operatingWithoutExploitSince'], time_list)
 
-    # Pulling and calculating dYdX data
-    dydx_tokens = constants.dydxContractInfo['activeMarkets']
-    dydx_balances = [pool_data_service.fetch_data_for_pool('dydx', t) for t in dydx_tokens]
-    dydx_portfolio_cvar = finance_service.generate_cvar_from_balances(dydx_balances)
-    # add instead of subtract here because cvar from this function is negative
-    constants.dydx_values['cvar'] = 1 + dydx_portfolio_cvar
-    constants.dydx_values['timeIndex'] = finance_service.normalize_time_data(constants.dydx_values['operatingWithoutExploitSince'], time_list)
-
-    # Pulling and calculating AAVE data
-    aave_tokens = [x['token'] for x in constants.aaveContractInfo]
-    aave_balances = [pool_data_service.fetch_data_for_pool('aave', t) for t in aave_tokens]
-    aave_portfolio_cvar = finance_service.generate_cvar_from_balances(aave_balances)
-    # add instead of subtract here because cvar from this function is negative
-    constants.aave_values['cvar'] = 1 + aave_portfolio_cvar
-    constants.aave_values['timeIndex'] = finance_service.normalize_time_data(constants.aave_values['operatingWithoutExploitSince'], time_list)
 
     scores = calculate_scores()
 
