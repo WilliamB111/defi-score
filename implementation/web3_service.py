@@ -6,7 +6,7 @@ load_dotenv(verbose=True)
 INFURA_API_KEY = os.getenv("INFURA_API_KEY")
 
 # Setup web3
-w3 = Web3(Web3.HTTPProvider(f'https://mainnet.infura.io/v3/{INFURA_API_KEY}'))
+w3=Web3(Web3.HTTPProvider('https://mainnet.infura.io/v3/25aaf87cf11a4c5b8280005a7d05ec5c'))
 
 def initializeContract(address, abi):
   checksummed_address = w3.toChecksumAddress(address)
